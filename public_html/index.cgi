@@ -19,7 +19,7 @@ Please visit http://mojolicio.us for detailed installation instructions.
 EOF
 
 # Application
-$ENV{MOJO_APP} ||= '<<% $class %>>';
+$ENV{MOJO_APP} ||= 'Mockup';
 #$ENV{MOJO_MODE} ||= 'production';
 $ENV{MOJO_MODE} ||= 'development';
 
